@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\mf-apis-web-services-manager.props" />
+</Project>

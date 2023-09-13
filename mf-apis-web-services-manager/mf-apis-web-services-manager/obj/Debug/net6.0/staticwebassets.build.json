@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZfNB+QPNP9r7hZumof3v4IvWJYjuv1E+tzS61pjQWGs=",
+  "Source": "mf-apis-web-services-manager",
+  "BasePath": "_content/mf-apis-web-services-manager",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
