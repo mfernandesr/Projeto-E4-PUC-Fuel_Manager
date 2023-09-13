@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "vL31JuoYmu/8YiqGtrRgmifCzK01VSN2Lj+8bfQ6vQH2uXAzoK12z8lMut7O389Gxm2jqdH8BgQVLolq2j1mBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\APIs e Web Services\\Unidade 2\\Projeto-E4-PUC-Fuel_Manager\\mf-apis-web-services-manager\\mf-apis-web-services-manager\\mf-apis-web-services-manager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
