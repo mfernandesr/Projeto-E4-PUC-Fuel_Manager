@@ -23,5 +23,29 @@ namespace mf_apis_web_services_manager.Controllers
 
             return Ok(model);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Create(Veiculo model)
+        {
+            if (model.AnoFabricacao <= 0 || model.AnoModelo <= 0)
+            {
+                return BadRequest(new {message = "Ano de Fabricação e Ano de Modelo são obrigatorios e devem ser maiores do que zero"});
+            }
+            
+            _context.Veiculos.Add(model);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetById", new {id = model.Id}, model);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> GetById(int id)
+        {
+            var model = await _context.Veiculos.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (model == null) NotFound();
+
+            return Ok(model);
+        }
     }
 }
