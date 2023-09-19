@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace mf_apis_web_services_manager.Models
 {
     [Table ("Veículos")]
-    public class Veiculo
+    public class Veiculo : LinksHATEOS
     {
         [Key]
         public int Id { get; set; }
