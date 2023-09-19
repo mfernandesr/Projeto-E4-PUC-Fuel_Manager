@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace mf_apis_web_services_manager.Models
 {
@@ -14,6 +15,7 @@ namespace mf_apis_web_services_manager.Models
         public string Nome { get; set; }
 
         [Required]
+        [JsonIgnore]
         public string Password { get; set;}
 
         [Required]

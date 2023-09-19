@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "z2I+oCSKoMJfCmXVu4d8k82cRZ1/UrDCwxmpSgtJ00kYeGAF9WeBhNxXJWa4AdtTgeKHDQMwN5lfVBRIgscijg==",
+  "dgSpecHash": "W9/T3CF2ZFP0NnFc0Ljw/T8757zJglHT2YI5nxaewfBzV4ouMKzHFOXW9VgX8vVA1R2XSsPvzP0W8s+EGnTTQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mfern\\Desktop\\PUC\\Matérias\\Eixo 4\\APIs e Web Services\\Unidade 2\\Projeto-E4-PUC-Fuel_Manager\\mf-apis-web-services-manager\\mf-apis-web-services-manager\\mf-apis-web-services-manager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mfern\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\mfern\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.5\\microsoft.aspnetcore.authentication.jwtbearer.6.0.5.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mfern\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
