@@ -1,10 +1,12 @@
 ﻿using mf_apis_web_services_manager.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace mf_apis_web_services_manager.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class VeiculosController : ControllerBase
@@ -58,7 +60,9 @@ namespace mf_apis_web_services_manager.Controllers
         {
             if (id != model.Id) return BadRequest();
 
-            var modeloDb = await _context.Veiculos.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
+            var modeloDb = await _context.Veiculos
+                .AsNoTracking()
+                .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
 
